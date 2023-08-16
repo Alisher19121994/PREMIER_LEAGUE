@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../components/app_images.dart';
+import '../../../components/app_images.dart';
 
 class LatestPage extends StatefulWidget {
   const LatestPage({super.key});

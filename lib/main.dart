@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:p_l/pages/mainScreens/fantasy_page.dart';
-import 'package:p_l/pages/mainScreens/latest_page.dart';
-import 'package:p_l/pages/mainScreens/more_page.dart';
-import 'package:p_l/pages/mainScreens/premier_league.dart';
-import 'package:p_l/pages/mainScreens/states_page.dart';
+import 'package:p_l/pages/mainScreens/fantasy/fantasy_page.dart';
+import 'package:p_l/pages/mainScreens/latest/latest_page.dart';
+import 'package:p_l/pages/mainScreens/more/more_page.dart';
+import 'package:p_l/pages/mainScreens/pl/allmatches/matches_pages.dart';
+import 'package:p_l/pages/mainScreens/pl/premier_league.dart';
+import 'package:p_l/pages/mainScreens/states/states_page.dart';
 import 'package:p_l/pages/main_screen_page.dart';
 import 'package:p_l/pages/splash/splash_page.dart';
 
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         MorePage.id: (context) => const MorePage(),
         PremierLeague.id: (context) => const PremierLeague(),
         StatesPage.id: (context) => const StatesPage(),
+        AllPLMatches.id: (context) => const AllPLMatches(),
       },
     );
   }

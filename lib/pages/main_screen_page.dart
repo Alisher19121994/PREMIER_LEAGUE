@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'mainScreens/fantasy_page.dart';
-import 'mainScreens/latest_page.dart';
-import 'mainScreens/more_page.dart';
-import 'mainScreens/premier_league.dart';
-import 'mainScreens/states_page.dart';
+import 'mainScreens/fantasy/fantasy_page.dart';
+import 'mainScreens/latest/latest_page.dart';
+import 'mainScreens/more/more_page.dart';
+import 'mainScreens/pl/premier_league.dart';
+import 'mainScreens/states/states_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
